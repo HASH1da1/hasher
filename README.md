@@ -9,7 +9,6 @@ This web extension could search any hash with some search engine.
 |Joe Sandbox|https://www.joesandbox.com/|
 |Hybrid Analysis|https://www.hybrid-analysis.com/|
 |Alien Vault OTX|https://otx.alienvault.com/|
-|VICheck|https://vicheck.ca/|
 |Malshare|https://www.malshare.com/|
 |IBM X-Force Exchange|https://exchange.xforce.ibmcloud.com/|
 

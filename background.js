@@ -36,15 +36,6 @@ browser.contextMenus.create({
 });
 
 browser.contextMenus.create({
-    id:"vicheck",
-    title:"VICheck",
-    contexts:["selection"],
-    icons:{
-        "16":"icon/vicheck.png"
-    }
-});
-
-browser.contextMenus.create({
     id:"malshare",
     title:"Malshare",
     contexts:["selection"],
