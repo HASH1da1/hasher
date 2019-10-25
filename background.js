@@ -54,15 +54,6 @@ browser.contextMenus.create({
 });
 
 browser.contextMenus.create({
-    id:"talos",
-    title:"Talos",
-    contexts:["selection"],
-    icons:{
-        "16":"icon/talos.png"
-    }
-});
-
-browser.contextMenus.create({
     id:"ibmexchange",
     title:"IBM Exchange",
     contexts:["selection"],
