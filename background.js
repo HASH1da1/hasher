@@ -45,6 +45,15 @@ browser.contextMenus.create({
 });
 
 browser.contextMenus.create({
+    id:"totalhash",
+    title:"ToalHash(SHA1)",
+    contexts:["selection"],
+    icons:{
+        "16": "totalhash.png"
+    }
+});
+
+browser.contextMenus.create({
     id:"ibmexchange",
     title:"IBM Exchange",
     contexts:["selection"],
