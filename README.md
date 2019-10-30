@@ -10,7 +10,11 @@ This web extension could search any hash with some search engine.
 |Hybrid Analysis|https://www.hybrid-analysis.com/|
 |Alien Vault OTX|https://otx.alienvault.com/|
 |Malshare|https://www.malshare.com/|
+|TotalHash|https://totalhash.cymru.com/|
 |IBM X-Force Exchange|https://exchange.xforce.ibmcloud.com/|
+|Jotti's Malware Scan|https://virusscan.jotti.org/|
+|AVCAESAR|https://avcaesar.malware.lu/|
+|hashdd|https://hashdd.com/|
 
 
 ## Usage
