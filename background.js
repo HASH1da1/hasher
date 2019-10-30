@@ -62,6 +62,15 @@ browser.contextMenus.create({
     }
 });
 
+browser.contextMenus.create({
+    id:"jotti",
+    title: "Jotti.org",
+    contexts: ["selection"],
+    icons:{
+        "16":"icon/jotti.png"
+    }
+});
+
 // create empty variables
 var artifact;
 var md5;
