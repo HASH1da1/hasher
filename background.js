@@ -71,6 +71,15 @@ browser.contextMenus.create({
     }
 });
 
+browser.contextMenus.create({
+    id:"avcaesar",
+    title:"AVcaesar",
+    contexts:["selection"],
+    icons:{
+        "16":"icon/avcaesar.png"
+    }
+});
+
 // create empty variables
 var artifact;
 var md5;
