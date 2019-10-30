@@ -80,6 +80,15 @@ browser.contextMenus.create({
     }
 });
 
+browser.contextMenus.create({
+    id:"hashdd",
+    title:"hashdd",
+    contexts:["selection"],
+    icons:{
+        "16":"icon/hashdd.png"
+    }
+});
+
 // create empty variables
 var artifact;
 var md5;
