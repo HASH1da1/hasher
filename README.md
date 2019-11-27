@@ -6,9 +6,9 @@ This web extension could search any hash with some search engine.
 |Name|URL|
 |:---|:---|
 |Virus Total|https://www.virustotal.com/gui/home/upload|
+|Alien Vault OTX|https://otx.alienvault.com/|
 |Joe Sandbox|https://www.joesandbox.com/|
 |Hybrid Analysis|https://www.hybrid-analysis.com/|
-|Alien Vault OTX|https://otx.alienvault.com/|
 |Malshare|https://www.malshare.com/|
 |TotalHash|https://totalhash.cymru.com/|
 |IBM X-Force Exchange|https://exchange.xforce.ibmcloud.com/|
