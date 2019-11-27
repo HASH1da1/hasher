@@ -4,7 +4,7 @@ browser.contextMenus.create({
     title:"VirusTotal",
     contexts:["selection"],
     icons:{
-        "16":"icon.vt.png"
+        "16":"icon/virustotal.png"
     }
 });
 
@@ -49,7 +49,7 @@ browser.contextMenus.create({
     title:"IBM Exchange",
     contexts:["selection"],
     icons:{
-        "16":"icon/ibmexchange.png"
+        "16":"icon/xforce.png"
     }
 });
 
@@ -95,7 +95,7 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
 
     switch(info.menuItemId){
         case "VT":
-            url = "https://www.virustotal.com/gui/file/"+aritfact+"/detection";
+            url = "https://www.virustotal.com/gui/file/"+artifact+"/detection";
             break;
 
         case "joesandbox":
@@ -129,5 +129,7 @@ browser.contextMenus.onClicked.addListener((info, tab) => {
         case "hashdd":
             url = "https://hashdd.com/i/"+artifact;
             break;
-
-    
+    }
+    browser.tabs.create({url: url});
+    navigator.clipboard.writeText(artifact);
+    });
