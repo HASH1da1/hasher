@@ -9,6 +9,15 @@ browser.contextMenus.create({
 });
 
 browser.contextMenus.create({
+    id:"alienvault",
+    title:"AlienVault OTX",
+    contexts:["selection"],
+    icons:{
+        "16":"icon/alienvault.png"
+    }
+});
+
+browser.contextMenus.create({
     id:"joesandbox",
     title:"JoeSandbox",
     contexts:["selection"],
@@ -23,15 +32,6 @@ browser.contextMenus.create({
     contexts:["selection"],
     icons:{
         "16":"icon/hybridanalysis.png"
-    }
-});
-
-browser.contextMenus.create({
-    id:"alienvault",
-    title:"AlienVault OTX",
-    contexts:["selection"],
-    icons:{
-        "16":"icon/alienvault.png"
     }
 });
 
