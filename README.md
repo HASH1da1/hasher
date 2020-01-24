@@ -2,7 +2,10 @@
 
 This web extension could search any hash with some search engine.
 
-You could download from [here](https://addons.mozilla.org/ja/firefox/addon/h4sh3r/)
+
+Download link below.
+- Firefox
+- Chrome
 
 ## Engine
 |Name|URL|
