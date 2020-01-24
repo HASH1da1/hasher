@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name":"hasher",
+    "version":"0.1",
+    "description":"hash analysis tool.",
+    "icons":{ 
+        "128":"icon/icon.svg"
+    },
+
+    "permissions":[
+        "clipboardWrite",
+        "contextMenus",
+        "menus"
+    ],
+    "background":{
+        "scripts":["background.js"]
+    }
+}
