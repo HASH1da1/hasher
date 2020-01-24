@@ -4,7 +4,7 @@
     "version":"0.1",
     "description":"hash analysis tool.",
     "icons":{ 
-        "128":"icon/icon.svg"
+        "128":"../icon.svg"
     },
 
     "permissions":[
